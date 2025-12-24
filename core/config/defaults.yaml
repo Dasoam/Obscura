@@ -1,0 +1,54 @@
+# Obscura Core Configuration
+# Privacy-first defaults
+
+server:
+  host: "127.0.0.1"
+  port: 8765
+  
+searxng:
+  url: "http://127.0.0.1:8888"
+  timeout: 10
+  engines:
+    - duckduckgo
+    - bing
+    - wikipedia
+
+privacy:
+  default_mode: "lite"
+  
+modes:
+  lite:
+    javascript: false
+    cookies: false
+    images: false
+    headers_minimal: true
+    
+  standard:
+    javascript: true
+    cookies: "session"
+    images: true
+    headers_minimal: false
+    
+  tor:
+    javascript: false
+    cookies: false
+    images: false
+    headers_minimal: true
+    socks_proxy: "socks5://127.0.0.1:9050"
+
+http:
+  timeout: 30
+  user_agent: "Obscura/1.0"
+  accept_language: "en-US"
+  max_redirects: 5
+
+sanitization:
+  strip_tags:
+    - script
+    - iframe
+    - embed
+    - object
+  strip_attributes:
+    - onclick
+    - onload
+    - onerror

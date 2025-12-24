@@ -1,0 +1,52 @@
+OBSCURA - PRIVACY-FIRST RESEARCH BROWSER
+==========================================
+
+Copyright (c) 2025 Obscura Contributors
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+==========================================
+
+PRIVACY NOTICE
+--------------
+
+By installing Obscura, you are installing a privacy-focused research browser
+that operates with the following guarantees:
+
+✓ ZERO TELEMETRY - No analytics or usage tracking
+✓ ZERO DATA COLLECTION - Your searches and browsing are never logged
+✓ ZERO CLOUD SYNC - Everything runs locally on your machine
+✓ ZERO USER ACCOUNTS - No sign-in required, no identifiers created
+✓ ZERO PERSISTENT COOKIES - Session data is cleared when you close the app
+
+WHAT GETS STORED
+----------------
+
+The ONLY thing Obscura may store on your computer:
+• UI Preferences (window size, last privacy mode selected)
+
+This data is stored locally and is never transmitted anywhere.
+
+THIRD-PARTY SERVICES
+--------------------
+
+Obscura may optionally connect to:
+• SearxNG (local or public instance) - for search functionality
+• Tor Network (if Tor mode enabled) - for anonymous browsing
+• Websites you explicitly choose to visit
+
+You control all network connections. Obscura never makes background
+requests without your explicit action.
+
+NO WARRANTY
+-----------
+
+This software is provided "as is" without warranty of any kind.
+Use at your own risk.
+
+==========================================
+
+For more information, visit:
+https://github.com/Dasoam/Obscura
