@@ -340,18 +340,23 @@ If you need these features, use a traditional browser.
 
 ## 📜 License
 
-This project is provided as-is for educational and privacy research purposes.
+This project is licensed under the [Mozilla Public License 2.0](LICENSE).
+
+See also:
+- [CHANGELOG.md](CHANGELOG.md) - Version history
+- [THREAT_MODEL.md](THREAT_MODEL.md) - Privacy threat model
+- [SECURITY.md](SECURITY.md) - Security policy
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please ensure any changes:
+Contributions are welcome! Please:
 
-1. ✅ **Maintain privacy guarantees** - No telemetry, logging, or tracking
-2. ✅ **Follow architecture** - Privacy logic stays in Core
-3. ✅ **Are well-documented** - Update README and code comments
-4. ✅ **Pass testing** - Ensure no privacy leaks
+1. ✅ Read [CONTRIBUTING.md](CONTRIBUTING.md)
+2. ✅ Follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+3. ✅ Review [THREAT_MODEL.md](THREAT_MODEL.md) - Don't break privacy guarantees
+4. ✅ Update documentation if needed
 
 ---
 
@@ -359,9 +364,10 @@ Contributions are welcome! Please ensure any changes:
 
 For issues, questions, or suggestions:
 
-1. **Check the Troubleshooting section** above
-2. **Check Known Issues**: `KNOWN_ISSUES.md`
-3. **Open an issue** on GitHub with detailed information
+1. **Check** [KNOWN_ISSUES.md](KNOWN_ISSUES.md)
+2. **Review** [Troubleshooting](#-troubleshooting) section above
+3. **Report security issues** via [SECURITY.md](SECURITY.md)
+4. **Open an issue** on [GitHub](https://github.com/Dasoam/Obscura/issues)
 
 ---
 
