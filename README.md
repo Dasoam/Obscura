@@ -48,7 +48,7 @@ Obscura is **NOT** a replacement for Chrome, Firefox, or Edge. It is a **private
    python run.py
    ```
 
-#### Option 2: Build Standalone EXE
+#### Option 2: Build Standalone EXE (Windows)
 
 1. **Install dependencies**:
    ```bash
@@ -63,6 +63,24 @@ Obscura is **NOT** a replacement for Chrome, Firefox, or Edge. It is a **private
 3. **Find the executable** in `dist/Obscura.exe`
 
 4. **Run** `Obscura.exe` - no installation required!
+
+#### Option 3: Build for macOS
+
+1. **Clone the repository** on your Mac
+
+2. **Make the build script executable**:
+   ```bash
+   chmod +x build_mac.sh
+   ```
+
+3. **Run the build script**:
+   ```bash
+   ./build_mac.sh
+   ```
+
+4. **Find the app** in `dist/Obscura`
+
+5. **Run**: `./dist/Obscura`
 
 ---
 
@@ -340,12 +358,7 @@ If you need these features, use a traditional browser.
 
 ## 📜 License
 
-This project is licensed under the [Mozilla Public License 2.0](LICENSE).
-
-See also:
-- [CHANGELOG.md](CHANGELOG.md) - Version history
-- [THREAT_MODEL.md](THREAT_MODEL.md) - Privacy threat model
-- [SECURITY.md](SECURITY.md) - Security policy
+This project is provided as-is for educational and privacy research purposes.
 
 ---
 
