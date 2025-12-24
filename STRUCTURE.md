@@ -148,11 +148,15 @@ GitHub integration files.
 | `obscura.ico` | Windows application icon (multi-size) |
 | `obscura_icon.png` | Icon source file |
 | `.gitignore` | Git ignore rules |
+| `LICENSE` | Mozilla Public License 2.0 |
 | `README.md` | Project documentation |
 | `STRUCTURE.md` | This file - project structure guide |
 | `CONTRIBUTING.md` | Contribution guidelines |
 | `CODE_OF_CONDUCT.md` | Community code of conduct |
 | `KNOWN_ISSUES.md` | Known bugs and planned fixes |
+| `SECURITY.md` | Security policy and reporting |
+| `THREAT_MODEL.md` | Privacy threat model |
+| `CHANGELOG.md` | Version history and release notes |
 
 ---
 
