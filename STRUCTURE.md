@@ -143,6 +143,7 @@ GitHub integration files.
 | `version.py` | Version constants |
 | `requirements.txt` | Python package dependencies |
 | `build.bat` | Windows build script using PyInstaller |
+| `build_mac.sh` | macOS build script using PyInstaller |
 | `obscura.spec` | PyInstaller configuration for single-file EXE |
 | `version_info.txt` | Windows EXE version metadata |
 | `obscura.ico` | Windows application icon (multi-size) |
